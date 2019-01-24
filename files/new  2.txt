@@ -1,0 +1,13 @@
+public class Student {
+	
+	private String name;
+	
+	public Student(String aName){
+		this.name = aName;
+	}
+	
+	public sayHello(){
+		System.out.println("Hello from, "+name);
+	}
+
+}
